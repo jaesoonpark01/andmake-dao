@@ -96,6 +96,7 @@ export default function Home() {
           </div>
         </div>
         
+        
         <div className="mt-10 py-12">
           <SectionHeading 
             title={<span>다양한 <span className="text-brand-green-600">환경 챌린지</span>에 참여하세요</span>}
