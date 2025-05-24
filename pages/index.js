@@ -3,6 +3,8 @@ import { FiUsers, FiShield, FiAward, FiDatabase } from 'react-icons/fi';
 import SectionHeading from '../components/ui/SectionHeading';
 import Button from '../components/ui/Button';
 import Card from '../components/ui/Card';
+import HeroSection from '../components/layout/HeroSection';
+import ChallengeIdeaGenerator from '../components/layout/ChallengeIdeaGenerator';
 
 export default function Home() {
   return (
@@ -96,7 +98,10 @@ export default function Home() {
           </div>
         </div>
         
-        
+        <HeroSection/>
+        {/* --- 새로운 Gemini API 기반 챌린지 아이디어 생성기 섹션 --- */}
+        <ChallengeIdeaGenerator />
+
         <div className="mt-10 py-12">
           <SectionHeading 
             title={<span>다양한 <span className="text-brand-green-600">환경 챌린지</span>에 참여하세요</span>}
